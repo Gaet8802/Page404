@@ -1,0 +1,95 @@
+body { background-color:darkblue;
+       overflow-x:hidden;
+    
+}
+
+
+.icon {
+    color:crimson;
+    margin: 100 px 0px 50 px 0 px;
+    font-size:40em;
+    height:150px;
+    position:relative;
+    animation: inconito 10s infinite ;   
+}
+
+@keyframes inconito {
+    0% {left:0px;}
+    10% {color:aqua;left:500px;}
+    20% {color:beige;left:100px;}
+    30% {color:rebeccapurple;left:-500px;}
+    40% {color:blue;left:500px;}
+    50% {color:lightcoral;left:-500px;}
+    60% {color:chocolate;left:500px;}
+    70% {color:cadetblue;left:-500px;}
+    80%{color:deepskyblue;left:500px;}
+    90% {color:gold;left:-500px;}
+    100% {color:darkseagreen;left:200px;}
+}
+
+.d {
+    text-align: center;
+}
+
+h1 {
+    color:goldenrod;
+    font-size:40px;
+}
+h2 {
+    color:chartreuse;
+    font-size:30px;
+}
+
+.buttonlist {
+    display:flex;
+    justify-content:center;
+}
+
+.buttonlist li {
+    list-style-type:none;
+	margin: 15px 30px;
+}
+
+.buttonlist li a {
+    text-decoration:none;
+	color: white;
+    margin: 15px 30px;
+}
+
+.buttonlist .buttonback {
+    color:white;
+	background-color: #4A148C;
+	padding: 5px 4px;
+	border: none;
+    box-shadow: 4px 4px 4px #888888;
+}
+
+.buttonlist .buttonback:hover {
+    color:white;
+	background-color: #6A1B9A;
+	padding: 5px 4px;
+	border: none;
+}
+
+.buttonlist .contactbutton {
+    color:white;
+	background-color: #4A148C;
+	padding: 5px 4px;
+	border: none;
+    box-shadow: 4px 4px 4px #888888;
+}
+
+.buttonlist .contactbutton:hover {
+    color:white;
+    background-color: brown;
+    padding 5px 4px;
+    border:none;
+}
+
+
+a{}
+
+
+
+
+
